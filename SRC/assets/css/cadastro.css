@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6495ED;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.card{
+    padding: 100px;
+    background-color: #708090;
+    border: none;
+    border-radius: 4%;
+    width: 400px;
+    box-shadow: 3px 1px 0px 0px #00000060;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.put label{
+    font-weight: bold;
+}
+
+ .put input{
+    width: 100%;
+    padding: 10px 10px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box 2px solid #000;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.put input:hover{
+    opacity: 1;
+    transition: ease-out 0.3s;
+}
+
+.put input:focus{
+    outline: none;
+    opacity: 1;
+}
+
+button{
+    border-color: transparent;
+    color: #272262;
+    font-size: 12pt;
+    padding: 7px;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4 ease-out;
+  
+  }
+
+button:hover{
+    color: #272262;
+    opacity: 0.8;
+    transition: ease-in .3s;
+}
+
+
+
+a{
+    color: #1c1c30;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    font-size: 20px;
+    margin-left: 14px;
+}
+
+a:hover{
+   opacity: 0.8;
+
+}
+
